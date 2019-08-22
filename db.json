@@ -1,0 +1,24 @@
+{
+  "todo": [
+    {
+      "id": 0,
+      "body": "Buy groceries"
+    },
+    {
+      "id": 1,
+      "body": "Laundry"
+    },
+    {
+      "id": 2,
+      "body": "Work on websites file upload feature"
+    },
+    {
+      "id": 3,
+      "body": "Take car to mechanic"
+    },
+    {
+      "id": 4,
+      "body": "Gym"
+    }
+  ]
+}
