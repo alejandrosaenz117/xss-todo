@@ -3,7 +3,10 @@ const app = express();
 const request = require('request');
 const port = 3001;
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
+app.options('*', cors());
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static('public'));
@@ -18,8 +21,9 @@ app.get('/todo', (req, res) => {
 });
 
 app.post('/todo', (req, res) => {
+  let body = req.body.body;
   const todo = {
-    body: req.body.body
+    body: body
   };
   const headersOpt = {
     'content-type': 'application/json'

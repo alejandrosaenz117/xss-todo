@@ -33,16 +33,13 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">
-        You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your
-        experience.
-      </p>
-    <![endif]-->
-
     <script type="text/javascript" src="./js/todo.js"></script>
 
     <div class="row bootstrap snippets">
@@ -54,9 +51,16 @@
             </h3>
             <div class="panel-body">
               <form id="form" action="javascript:void('');">
-                <textarea class="form-control" placeholder="write a todo..." rows="3" id="todoBox"></textarea>
+                <textarea
+                  class="form-control"
+                  placeholder="write a todo..."
+                  rows="3"
+                  id="todoBox"
+                ></textarea>
                 <br />
-                <button type="submit" class="btn btn-info pull-right">Add</button>
+                <button type="submit" class="btn btn-info pull-right">
+                  Add
+                </button>
                 <div class="clearfix"></div>
               </form>
               <hr />
