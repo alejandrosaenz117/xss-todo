@@ -17,7 +17,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "json-server": "^0.15.0",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "nodemon": "^1.19.3",
